@@ -1,3 +1,29 @@
-__Resources:_
+__Resources:__
 
 - [help](http://help.github.com/)
+- [github](http://github.com)
+- [ssh issues](http://help.github.com/ssh-issues/)
+
+```terminal
+git config --global user.name "Your Name"
+git config --global user.email happypeter1983@gmail.com
+```
+```terminal
+mkdir first-proj
+cd first-proj
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:lovelypeter/first-proj.git
+git push -u origin master
+```
+```terminal
+cat ~/.gitconfig
+```
+```terminal
+mv .ssh ssh.bak
+ssh-keygen
+```
+
+
